@@ -26,6 +26,10 @@
         "b-10-running-bash-8",
         "b-10-running-the-makefile-sets-front-9",
         "b-10-running-the-dev-server-listens-o-10",
+        "b-10-running-usually-running-lead",
+        "b-10-running-usually-running-1",
+        "b-10-running-usually-running-2",
+        "b-10-running-usually-running-3",
         "b-10-running-production-build-11",
         "b-10-running-bash-12",
         "b-10-running-the-production-build-is-13",
@@ -178,6 +182,68 @@
         },
         {
           "insert": "."
+        }
+      ],
+      "children": []
+    },
+    "b-10-running-usually-running-lead": {
+      "id": "b-10-running-usually-running-lead",
+      "type": "paragraph",
+      "props": {},
+      "text": [
+        {
+          "insert": "The dev server is normally already running at "
+        },
+        {
+          "insert": "http://localhost:3000",
+          "attributes": {
+            "code": true
+          }
+        },
+        {
+          "insert": ", and Next.js hot reload applies each frontend edit to it."
+        }
+      ],
+      "children": []
+    },
+    "b-10-running-usually-running-1": {
+      "id": "b-10-running-usually-running-1",
+      "type": "list-item",
+      "props": {},
+      "text": [
+        {
+          "insert": "Check an edit to scene JSON, public modules, components, CSS, or manifests in the running server. That edit needs no rebuild."
+        }
+      ],
+      "children": []
+    },
+    "b-10-running-usually-running-2": {
+      "id": "b-10-running-usually-running-2",
+      "type": "list-item",
+      "props": {},
+      "text": [
+        {
+          "insert": "Run the production build only when Ford asks, before a production handoff, or to test that the build compiles."
+        }
+      ],
+      "children": []
+    },
+    "b-10-running-usually-running-3": {
+      "id": "b-10-running-usually-running-3",
+      "type": "list-item",
+      "props": {},
+      "text": [
+        {
+          "insert": "If the server does not answer, open "
+        },
+        {
+          "insert": "http://localhost:3000",
+          "attributes": {
+            "code": true
+          }
+        },
+        {
+          "insert": " once before you start or restart it."
         }
       ],
       "children": []
